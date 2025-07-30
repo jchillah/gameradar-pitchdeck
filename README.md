@@ -65,7 +65,7 @@ Diese Präsentation beinhaltet:
 ## 💬 Feedback & Beiträge
 
 Du hast Feedback oder willst GameRadar unterstützen?  
-→ [Issue erstellen](https://github.com/dein-user/GameRadar-Pitchdeck/issues) oder einen Pull Request vorschlagen.
+→ [Issue erstellen](https://github.com/jchillah/GameRadar/issues/new) oder einen Pull Request vorschlagen.
 
 ---
 
