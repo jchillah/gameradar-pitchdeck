@@ -53,13 +53,11 @@ Diese Präsentation beinhaltet:
 
 ## 📁 Inhalte dieses Repositories
 
-| Datei / Ordner        | Beschreibung                         |
+| Datei / Ordner        | Beschreibung                          |
 |------------------------|--------------------------------------|
-| `GameRadar_Pitch.pdf` | Vollständiges Pitchdeck (PDF-Export) |
-| `slides/`             | Präsentationsfolien als Images       |
-| `README.md`           | Dieses Dokument                      |
-| `assets/`             | Screenshots, Logos, Diagramme        |
-
+| `index.html`           | Vollständiges Pitchdeck              |
+| `README.md`            | Dieses Dokument                      |
+                      |
 ---
 
 ## 💬 Feedback & Beiträge
@@ -72,7 +70,7 @@ Du hast Feedback oder willst GameRadar unterstützen?
 ## 🌐 Links
 
 - 🌍 [GameRadar GitHub Repo (App-Code)](https://github.com/jchillah/GameRadar)
-- 🎥 [Pitchdeck-Präsentation (YouTube/Drive Link, falls vorhanden)]
+- 🎥 [Pitchdeck-Präsentation (folgt noch)]
 - 📘 [RAWG API Docs](https://rawg.io/apidocs)
 
 ---
