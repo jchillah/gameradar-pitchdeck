@@ -57,7 +57,7 @@ Diese Präsentation beinhaltet:
 |------------------------|--------------------------------------|
 | `index.html`           | Vollständiges Pitchdeck              |
 | `README.md`            | Dieses Dokument                      |
-                      |
+        
 ---
 
 ## 💬 Feedback & Beiträge
