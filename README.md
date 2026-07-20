@@ -70,7 +70,7 @@ Du hast Feedback oder willst GameRadar unterstützen?
 ## 🌐 Links
 
 - 🌍 [GameRadar GitHub Repo (App-Code)](https://github.com/jchillah/GameRadar)
-- 🎥 [Pitchdeck-Präsentation (folgt noch)]
+- 🎥 [Pitchdeck-Präsentation](https://jchillah.github.io/gameradar-pitchdeck/)
 - 📘 [RAWG API Docs](https://rawg.io/apidocs)
 
 ---
