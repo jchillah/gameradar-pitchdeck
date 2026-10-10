@@ -8,6 +8,24 @@
   <title>GameRadar – Pitchdeck</title>
   <link rel="stylesheet" href="https://jchillah.github.io/assets/pitchdeck/pitchdeck-v2.css?v=20260722-1" />
   <link rel="stylesheet" href="https://jchillah.github.io/assets/pitchdeck/showcase-slide.css?v=20260722-1" />
+  <style>
+    /* Keep the deck centered in the real visible viewport, including mobile browser chrome. */
+    .viewport { min-height: 100dvh; }
+    body.reflow .viewport {
+      display: grid;
+      place-items: center;
+      min-height: 100dvh;
+      padding: max(12px, env(safe-area-inset-top)) 8px calc(82px + env(safe-area-inset-bottom));
+    }
+    body.reflow .deck-shell {
+      height: calc(100dvh - 112px - env(safe-area-inset-bottom)) !important;
+      min-height: 300px;
+    }
+    body.reflow .slide {
+      scroll-padding-top: 8px;
+      scrollbar-gutter: stable;
+    }
+  </style>
 </head>
 <body style="--bg1:#102542;--bg2:#1e3c72;--accent:#d9aa22;--accent2:#2f855a">
   <div class="progress" aria-hidden="true"></div>
@@ -15,7 +33,7 @@
   <main class="viewport" aria-label="GameRadar Pitchdeck">
     <div class="deck-shell"><div class="deck-frame">
       <section class="slide title-slide" data-title="GameRadar" aria-hidden="true">
-        <img class="app-logo" src="https://raw.githubusercontent.com/jchillah/jchillah_company_site/main/assets/images/gameradar_app_icon.png" alt="GameRadar App-Logo" />
+        <img class="app-logo" src="https://raw.githubusercontent.com/jchillah/GameRadar/main/img/app_icon.png" alt="GameRadar App-Logo" />
         <h1>GameRadar</h1>
         <p class="subtitle">Android-App für Spielesuche, Favoriten, Wunschlisten und persönliche Organisation</p>
         <div class="company-info">Jchillah’s Design &amp; Coding Forge · Michael Winkler · Stand: 22.07.2026</div>
@@ -68,7 +86,7 @@
 
       <section class="slide" data-title="Kontakt &amp; Ressourcen" aria-hidden="true">
         <header class="slide-header"><h1>Kontakt &amp; Ressourcen</h1></header>
-        <div class="slide-content"><div class="cta-section"><h3>GameRadar ist ein vollständiges Android-Portfolio-Projekt.</h3><p>Kotlin · Jetpack Compose · RAWG API · Room · MVVM/MVI · JSON Export/Import</p><div class="resource-links"><a class="download-btn" href="https://github.com/jchillah/GameRadar">💻 Repository</a><a class="download-btn" href="https://jchillah.github.io/gameradar-pitchdeck/">📊 Pitchdeck</a><a class="download-btn" href="https://jchillah.github.io/GameRadar-Privacy-Policy/">🔒 Datenschutz</a><a class="download-btn" href="https://jchillah.github.io/">🏢 Company Site</a></div></div><p class="footer-note">Entwicklung und Präsentation: Michael Winkler · Jchillah’s Design &amp; Coding Forge</p></div>
+        <div class="slide-content"><div class="cta-section"><h3>GameRadar ist ein vollständiges Android-Portfolio-Projekt.</h3><p>Kotlin · Jetpack Compose · RAWG API · Room · MVVM/MVI · JSON Export/Import</p><div class="resource-links"><a class="download-btn" href="https://github.com/jchillah/GameRadar">💻 Repository</a><a class="download-btn" href="https://jchillah.github.io/gameradar-pitchdeck/">📊 Pitchdeck</a><a class="download-btn" href="https://jchillah.github.io/GameRadar-Privacy-Policy/">🔒 Datenschutz</a></div></div><p class="footer-note">Entwicklung und Präsentation: Michael Winkler · Jchillah’s Design &amp; Coding Forge</p></div>
       </section>
     </div></div>
   </main>
